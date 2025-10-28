@@ -9,7 +9,7 @@ package Responsi_PBO_UTS_2440506063;
  * @author Satomo
  */
 public class PegawaiKontrak extends Pegawai {
-    private String lamaKontrak; // contoh: "12 bulan"
+    private String lamaKontrak;
 
     public PegawaiKontrak(String namaPegawai, double gaji, String lamaKontrak) {
         super(namaPegawai, gaji);
@@ -30,3 +30,4 @@ public class PegawaiKontrak extends Pegawai {
         System.out.println("Lama Kontrak: " + lamaKontrak);
     }
 }
+
