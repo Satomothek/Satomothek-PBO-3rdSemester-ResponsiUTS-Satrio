@@ -10,25 +10,28 @@ package Responsi_PBO_UTS_2440506063;
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("1. Output Produk:");
+        System.out.println("1. Output Produk Elektronik:");
         Elektronik produk1 = new Elektronik("Laptop", 15000000, 2);
         produk1.tampilkanInfo();
         System.out.println();
 
-        System.out.println("2. Output Pegawai:");
+        System.out.println("2. Output Pegawai Tetap:");
         PegawaiTetap pegawai1 = new PegawaiTetap("Satrio", 5000000, 1000000);
         pegawai1.tampilkanInfo();
         System.out.println();
 
-        System.out.println("3. Output Polimorfisme:");
+        System.out.println("3. Output Produk Makanan:");
         Produk produk2 = new Makanan("Snack", 15000, "2025-12-30");
         produk2.tampilkanInfo();
         System.out.println();
-
+        
+        System.out.println("4. Output Pegawai Kontrak:");
         Pegawai pegawai2 = new PegawaiKontrak("Beni", 3000000, "12 bulan");
         pegawai2.tampilkanInfo();
+        System.out.println();
     }
 }
+
 
 
 
