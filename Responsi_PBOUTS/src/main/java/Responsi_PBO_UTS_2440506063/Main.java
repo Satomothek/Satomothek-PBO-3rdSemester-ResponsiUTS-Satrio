@@ -25,9 +25,10 @@ public class Main {
         produk2.tampilkanInfo();
         System.out.println();
 
-        Pegawai pegawai2 = new PegawaiKontrak("Satrio", 3000000, "12 bulan");
+        Pegawai pegawai2 = new PegawaiKontrak("Beni", 3000000, "12 bulan");
         pegawai2.tampilkanInfo();
     }
 }
+
 
 
