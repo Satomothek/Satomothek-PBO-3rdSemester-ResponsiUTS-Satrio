@@ -21,7 +21,7 @@ public class Main {
         System.out.println();
 
         System.out.println("3. Output Polimorfisme:");
-        Produk produk2 = new Makanan("Snack", 15000, "2023-12-30");
+        Produk produk2 = new Makanan("Snack", 15000, "2025-12-30");
         produk2.tampilkanInfo();
         System.out.println();
 
@@ -29,6 +29,7 @@ public class Main {
         pegawai2.tampilkanInfo();
     }
 }
+
 
 
 
