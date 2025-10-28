@@ -9,7 +9,7 @@ package Responsi_PBO_UTS_2440506063;
  * @author Satomo
  */
 public class Elektronik extends Produk {
-    private int garansi; // tahun
+    private int garansi;
 
     public Elektronik(String namaProduk, double harga, int garansi) {
         super(namaProduk, harga);
@@ -30,3 +30,4 @@ public class Elektronik extends Produk {
         System.out.println("Garansi: " + garansi + " tahun");
     }
 }
+
